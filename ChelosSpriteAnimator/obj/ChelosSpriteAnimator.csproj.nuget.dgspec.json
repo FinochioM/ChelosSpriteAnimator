@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\ChelosSpriteAnimator.csproj": {}
+  },
+  "projects": {
+    "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\ChelosSpriteAnimator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\ChelosSpriteAnimator.csproj",
+        "projectName": "ChelosSpriteAnimator",
+        "projectPath": "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\ChelosSpriteAnimator.csproj",
+        "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
+        "outputPath": "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Catel.MVVM": {
+              "target": "Package",
+              "version": "[5.11.0, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[1.6.5, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "MonoGame.Content.Builder": {
+              "target": "Package",
+              "version": "[3.7.0.9, )"
+            },
+            "MonoGame.Extended": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "MonoGame.Framework.WindowsDX": {
+              "target": "Package",
+              "version": "[3.7.1.189, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Serilog.Sinks.Trace": {
+              "target": "Package",
+              "version": "[3.0.0-dev-00732, )"
+            },
+            "SharpDX": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2801 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Catel.Core/5.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Configuration.ConfigurationManager": "4.4.1",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Xml": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net47/Catel.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/Catel.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Catel.MVVM/5.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Catel.Core": "5.11.0",
+          "Expression.Blend.Sdk.WPF": "1.0.1",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "compile": {
+          "lib/net47/Catel.MVVM.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/Catel.MVVM.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "resource": {
+          "lib/net47/de/Catel.MVVM.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net47/es/Catel.MVVM.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net47/fr/Catel.MVVM.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net47/it/Catel.MVVM.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net47/nl/Catel.MVVM.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net47/ru/Catel.MVVM.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net47/tr/Catel.MVVM.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net47/zh-Hans/Catel.MVVM.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "ControlzEx/3.0.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb"
+          },
+          "lib/net462/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb"
+          },
+          "lib/net462/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Expression.Blend.Sdk.WPF/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "resource": {
+          "lib/net45/en/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/en/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/en/System.Windows.Interactivity.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/es/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Windows.Interactivity.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/System.Windows.Interactivity.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/System.Windows.Interactivity.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/System.Windows.Interactivity.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/System.Windows.Interactivity.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ru/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/System.Windows.Interactivity.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/System.Windows.Interactivity.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/System.Windows.Interactivity.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "MahApps.Metro/1.6.5": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[3.0.2.4, 4.0.0)"
+        },
+        "compile": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net472": "1.0.3"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net472/1.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NETFramework.ReferenceAssemblies.net472.targets": {}
+        }
+      },
+      "MonoGame.Content.Builder/3.7.0.9": {
+        "type": "package",
+        "build": {
+          "build/MonoGame.Content.Builder.targets": {}
+        }
+      },
+      "MonoGame.Extended/3.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/MonoGame.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.dll": {}
+        }
+      },
+      "MonoGame.Framework.WindowsDX/3.7.1.189": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1",
+          "SharpDX.Direct2D1": "4.0.1",
+          "SharpDX.Direct3D11": "4.0.1",
+          "SharpDX.Direct3D9": "4.0.1",
+          "SharpDX.MediaFoundation": "4.0.1",
+          "SharpDX.XAudio2": "4.0.1",
+          "SharpDX.XInput": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/MonoGame.Framework.WindowsDX.targets": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog/2.8.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net46/Serilog.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Serilog.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Trace/3.0.0-dev-00732": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Serilog.Sinks.Trace.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Serilog.Sinks.Trace.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SharpDX.Direct2D1/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct2D1.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct2D1.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.Direct3D9/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.Mathematics/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.MediaFoundation/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1",
+          "SharpDX.Direct3D9": "4.0.1",
+          "SharpDX.Mathematics": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.XAudio2/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XAudio2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XAudio2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.XInput/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XInput.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XInput.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ComponentModel.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.ComponentModel.Annotations.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Formatters/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Formatters.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Xml/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Runtime.Serialization",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Xml.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Xml.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Catel.Core/5.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Configuration.ConfigurationManager": "4.4.1",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Xml": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net47/Catel.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/Catel.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Catel.MVVM/5.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Catel.Core": "5.11.0",
+          "Expression.Blend.Sdk.WPF": "1.0.1",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "compile": {
+          "lib/net47/Catel.MVVM.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/Catel.MVVM.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "resource": {
+          "lib/net47/de/Catel.MVVM.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net47/es/Catel.MVVM.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net47/fr/Catel.MVVM.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net47/it/Catel.MVVM.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net47/nl/Catel.MVVM.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net47/ru/Catel.MVVM.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net47/tr/Catel.MVVM.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net47/zh-Hans/Catel.MVVM.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "ControlzEx/3.0.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb"
+          },
+          "lib/net462/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb"
+          },
+          "lib/net462/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Expression.Blend.Sdk.WPF/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "resource": {
+          "lib/net45/en/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/en/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/en/System.Windows.Interactivity.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/es/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Windows.Interactivity.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/System.Windows.Interactivity.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/System.Windows.Interactivity.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/System.Windows.Interactivity.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/System.Windows.Interactivity.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ru/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/System.Windows.Interactivity.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/System.Windows.Interactivity.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Controls.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Drawing.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Effects.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Interactions.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.Expression.Prototyping.Interactivity.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/System.Windows.Interactivity.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "MahApps.Metro/1.6.5": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[3.0.2.4, 4.0.0)"
+        },
+        "compile": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net472": "1.0.3"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net472/1.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NETFramework.ReferenceAssemblies.net472.targets": {}
+        }
+      },
+      "MonoGame.Content.Builder/3.7.0.9": {
+        "type": "package",
+        "build": {
+          "build/MonoGame.Content.Builder.targets": {}
+        }
+      },
+      "MonoGame.Extended/3.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/MonoGame.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.dll": {}
+        }
+      },
+      "MonoGame.Framework.WindowsDX/3.7.1.189": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1",
+          "SharpDX.Direct2D1": "4.0.1",
+          "SharpDX.Direct3D11": "4.0.1",
+          "SharpDX.Direct3D9": "4.0.1",
+          "SharpDX.MediaFoundation": "4.0.1",
+          "SharpDX.XAudio2": "4.0.1",
+          "SharpDX.XInput": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/MonoGame.Framework.WindowsDX.targets": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog/2.8.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net46/Serilog.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Serilog.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Trace/3.0.0-dev-00732": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Serilog.Sinks.Trace.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Serilog.Sinks.Trace.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SharpDX.Direct2D1/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct2D1.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct2D1.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.Direct3D9/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.Mathematics/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.MediaFoundation/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1",
+          "SharpDX.DXGI": "4.0.1",
+          "SharpDX.Direct3D9": "4.0.1",
+          "SharpDX.Mathematics": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.XAudio2/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XAudio2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XAudio2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpDX.XInput/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XInput.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XInput.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ComponentModel.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.ComponentModel.Annotations.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Formatters/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Formatters.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Xml/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Runtime.Serialization",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Xml.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Xml.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Catel.Core/5.11.0": {
+      "sha512": "kCze7qvPYSp6xRheiqpHJcVll6X+EFUVIZgnqYZzKoCzDxoToMZ4bHs58Co9vc4RiFMmIJWkANm3IvPMq1mxHw==",
+      "type": "package",
+      "path": "catel.core/5.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "catel.core.5.11.0.nupkg.sha512",
+        "catel.core.nuspec",
+        "lib/net45/Catel.Core.dll",
+        "lib/net45/Catel.Core.pdb",
+        "lib/net45/Catel.Core.xml",
+        "lib/net46/Catel.Core.dll",
+        "lib/net46/Catel.Core.pdb",
+        "lib/net46/Catel.Core.xml",
+        "lib/net47/Catel.Core.dll",
+        "lib/net47/Catel.Core.pdb",
+        "lib/net47/Catel.Core.xml",
+        "lib/netcoreapp3.0/Catel.Core.dll",
+        "lib/netcoreapp3.0/Catel.Core.pdb",
+        "lib/netcoreapp3.0/Catel.Core.xml",
+        "lib/netstandard2.0/Catel.Core.dll",
+        "lib/netstandard2.0/Catel.Core.pdb",
+        "lib/netstandard2.0/Catel.Core.xml",
+        "lib/uap10.0.16299/Catel.Core.dll",
+        "lib/uap10.0.16299/Catel.Core.pdb",
+        "lib/uap10.0.16299/Catel.Core.pri",
+        "lib/uap10.0.16299/Catel.Core.xml",
+        "lib/uap10.0/Catel.Core.dll",
+        "lib/uap10.0/Catel.Core.pdb",
+        "lib/uap10.0/Catel.Core.pri",
+        "lib/uap10.0/Catel.Core.xml"
+      ]
+    },
+    "Catel.MVVM/5.11.0": {
+      "sha512": "fW3ASx4XiEU3HqXCmO0Duy+Vu/HtXwb72XMFHHS81vX5LHR4KdUVS/LCrVImmH1ieXRTO6M8ZsId99IxqQgV5A==",
+      "type": "package",
+      "path": "catel.mvvm/5.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "catel.mvvm.5.11.0.nupkg.sha512",
+        "catel.mvvm.nuspec",
+        "lib/net45/Catel.MVVM.dll",
+        "lib/net45/Catel.MVVM.pdb",
+        "lib/net45/Catel.MVVM.xml",
+        "lib/net45/de/Catel.MVVM.resources.dll",
+        "lib/net45/es/Catel.MVVM.resources.dll",
+        "lib/net45/fr/Catel.MVVM.resources.dll",
+        "lib/net45/it/Catel.MVVM.resources.dll",
+        "lib/net45/nl/Catel.MVVM.resources.dll",
+        "lib/net45/ru/Catel.MVVM.resources.dll",
+        "lib/net45/tr/Catel.MVVM.resources.dll",
+        "lib/net45/zh-Hans/Catel.MVVM.resources.dll",
+        "lib/net46/Catel.MVVM.dll",
+        "lib/net46/Catel.MVVM.pdb",
+        "lib/net46/Catel.MVVM.xml",
+        "lib/net46/de/Catel.MVVM.resources.dll",
+        "lib/net46/es/Catel.MVVM.resources.dll",
+        "lib/net46/fr/Catel.MVVM.resources.dll",
+        "lib/net46/it/Catel.MVVM.resources.dll",
+        "lib/net46/nl/Catel.MVVM.resources.dll",
+        "lib/net46/ru/Catel.MVVM.resources.dll",
+        "lib/net46/tr/Catel.MVVM.resources.dll",
+        "lib/net46/zh-Hans/Catel.MVVM.resources.dll",
+        "lib/net47/Catel.MVVM.dll",
+        "lib/net47/Catel.MVVM.pdb",
+        "lib/net47/Catel.MVVM.xml",
+        "lib/net47/de/Catel.MVVM.resources.dll",
+        "lib/net47/es/Catel.MVVM.resources.dll",
+        "lib/net47/fr/Catel.MVVM.resources.dll",
+        "lib/net47/it/Catel.MVVM.resources.dll",
+        "lib/net47/nl/Catel.MVVM.resources.dll",
+        "lib/net47/ru/Catel.MVVM.resources.dll",
+        "lib/net47/tr/Catel.MVVM.resources.dll",
+        "lib/net47/zh-Hans/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/Catel.MVVM.dll",
+        "lib/netcoreapp3.0/Catel.MVVM.pdb",
+        "lib/netcoreapp3.0/Catel.MVVM.xml",
+        "lib/netcoreapp3.0/de/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/es/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/fr/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/it/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/nl/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/ru/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/tr/Catel.MVVM.resources.dll",
+        "lib/netcoreapp3.0/zh-Hans/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/Catel.MVVM.dll",
+        "lib/uap10.0.16299/Catel.MVVM.pdb",
+        "lib/uap10.0.16299/Catel.MVVM.pri",
+        "lib/uap10.0.16299/Catel.MVVM.xml",
+        "lib/uap10.0.16299/de/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/es/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/fr/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/it/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/nl/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/ru/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/tr/Catel.MVVM.resources.dll",
+        "lib/uap10.0.16299/zh-Hans/Catel.MVVM.resources.dll",
+        "lib/uap10.0/Catel.MVVM.dll",
+        "lib/uap10.0/Catel.MVVM.pdb",
+        "lib/uap10.0/Catel.MVVM.pri",
+        "lib/uap10.0/Catel.MVVM.xml",
+        "lib/uap10.0/de/Catel.MVVM.resources.dll",
+        "lib/uap10.0/es/Catel.MVVM.resources.dll",
+        "lib/uap10.0/fr/Catel.MVVM.resources.dll",
+        "lib/uap10.0/it/Catel.MVVM.resources.dll",
+        "lib/uap10.0/nl/Catel.MVVM.resources.dll",
+        "lib/uap10.0/ru/Catel.MVVM.resources.dll",
+        "lib/uap10.0/tr/Catel.MVVM.resources.dll",
+        "lib/uap10.0/zh-Hans/Catel.MVVM.resources.dll"
+      ]
+    },
+    "ControlzEx/3.0.2.4": {
+      "sha512": "5pgvHE329JDDPwPHCVJe93yxu3CPl2wPh6ma1watUAGjvBtNSMkDcyzvwZcHSryihA/y4Ml3OmDYz9vj7Fg6Xg==",
+      "type": "package",
+      "path": "controlzex/3.0.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.3.0.2.4.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net40/ControlzEx.dll",
+        "lib/net40/ControlzEx.pdb",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net45/ControlzEx.dll",
+        "lib/net45/ControlzEx.pdb",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.pdb",
+        "lib/net462/System.Windows.Interactivity.dll"
+      ]
+    },
+    "Expression.Blend.Sdk.WPF/1.0.1": {
+      "sha512": "eXvBXgPhxHSdlzwK1rItPdrvj8sBzOUvibbAHbR9obo5o5eMTue9/OCOrjguUsaDtR3uzE1IM/HmQqDC686mcA==",
+      "type": "package",
+      "path": "expression.blend.sdk.wpf/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "expression.blend.sdk.wpf.1.0.1.nupkg.sha512",
+        "expression.blend.sdk.wpf.nuspec",
+        "lib/net40/Design/Microsoft.Expression.Controls.Design.dll",
+        "lib/net40/Design/Microsoft.Expression.Drawing.Design.dll",
+        "lib/net40/Design/Microsoft.Expression.Effects.Design.dll",
+        "lib/net40/Design/Microsoft.Expression.Prototyping.SketchControls.design.v4.dll",
+        "lib/net40/Design/de/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/de/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/de/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/en/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/en/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/en/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/es/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/es/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/es/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/fr/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/fr/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/fr/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/it/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/it/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/it/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/ja/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/ja/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/ja/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/ko/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/ko/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/ko/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/zh-Hans/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/zh-Hans/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/zh-Hans/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Design/zh-Hant/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net40/Design/zh-Hant/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40/Design/zh-Hant/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net40/Microsoft.Expression.Controls.dll",
+        "lib/net40/Microsoft.Expression.Controls.xml",
+        "lib/net40/Microsoft.Expression.Drawing.dll",
+        "lib/net40/Microsoft.Expression.Drawing.xml",
+        "lib/net40/Microsoft.Expression.Effects.dll",
+        "lib/net40/Microsoft.Expression.Effects.xml",
+        "lib/net40/Microsoft.Expression.Interactions.dll",
+        "lib/net40/Microsoft.Expression.Interactions.xml",
+        "lib/net40/Microsoft.Expression.Prototyping.Interactivity.dll",
+        "lib/net40/Microsoft.Expression.Prototyping.SketchControls.dll",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net40/System.Windows.Interactivity.xml",
+        "lib/net40/de/Microsoft.Expression.Controls.xml",
+        "lib/net40/de/Microsoft.Expression.Drawing.xml",
+        "lib/net40/de/Microsoft.Expression.Effects.xml",
+        "lib/net40/de/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/de/Microsoft.Expression.Interactions.xml",
+        "lib/net40/de/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/de/System.Windows.Interactivity.resources.dll",
+        "lib/net40/de/System.Windows.Interactivity.xml",
+        "lib/net40/en/Microsoft.Expression.Controls.xml",
+        "lib/net40/en/Microsoft.Expression.Drawing.xml",
+        "lib/net40/en/Microsoft.Expression.Effects.xml",
+        "lib/net40/en/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/en/Microsoft.Expression.Interactions.xml",
+        "lib/net40/en/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/en/System.Windows.Interactivity.resources.dll",
+        "lib/net40/en/System.Windows.Interactivity.xml",
+        "lib/net40/es/Microsoft.Expression.Controls.xml",
+        "lib/net40/es/Microsoft.Expression.Drawing.xml",
+        "lib/net40/es/Microsoft.Expression.Effects.xml",
+        "lib/net40/es/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/es/Microsoft.Expression.Interactions.xml",
+        "lib/net40/es/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/es/System.Windows.Interactivity.resources.dll",
+        "lib/net40/es/System.Windows.Interactivity.xml",
+        "lib/net40/fr/Microsoft.Expression.Controls.xml",
+        "lib/net40/fr/Microsoft.Expression.Drawing.xml",
+        "lib/net40/fr/Microsoft.Expression.Effects.xml",
+        "lib/net40/fr/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/fr/Microsoft.Expression.Interactions.xml",
+        "lib/net40/fr/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/fr/System.Windows.Interactivity.resources.dll",
+        "lib/net40/fr/System.Windows.Interactivity.xml",
+        "lib/net40/it/Microsoft.Expression.Controls.xml",
+        "lib/net40/it/Microsoft.Expression.Drawing.xml",
+        "lib/net40/it/Microsoft.Expression.Effects.xml",
+        "lib/net40/it/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/it/Microsoft.Expression.Interactions.xml",
+        "lib/net40/it/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/it/System.Windows.Interactivity.resources.dll",
+        "lib/net40/it/System.Windows.Interactivity.xml",
+        "lib/net40/ja/Microsoft.Expression.Controls.xml",
+        "lib/net40/ja/Microsoft.Expression.Drawing.xml",
+        "lib/net40/ja/Microsoft.Expression.Effects.xml",
+        "lib/net40/ja/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/ja/Microsoft.Expression.Interactions.xml",
+        "lib/net40/ja/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/ja/System.Windows.Interactivity.resources.dll",
+        "lib/net40/ja/System.Windows.Interactivity.xml",
+        "lib/net40/ko/Microsoft.Expression.Controls.xml",
+        "lib/net40/ko/Microsoft.Expression.Drawing.xml",
+        "lib/net40/ko/Microsoft.Expression.Effects.xml",
+        "lib/net40/ko/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/ko/Microsoft.Expression.Interactions.xml",
+        "lib/net40/ko/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/ko/System.Windows.Interactivity.resources.dll",
+        "lib/net40/ko/System.Windows.Interactivity.xml",
+        "lib/net40/zh-Hans/Microsoft.Expression.Controls.xml",
+        "lib/net40/zh-Hans/Microsoft.Expression.Drawing.xml",
+        "lib/net40/zh-Hans/Microsoft.Expression.Effects.xml",
+        "lib/net40/zh-Hans/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/zh-Hans/Microsoft.Expression.Interactions.xml",
+        "lib/net40/zh-Hans/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/zh-Hans/System.Windows.Interactivity.resources.dll",
+        "lib/net40/zh-Hans/System.Windows.Interactivity.xml",
+        "lib/net40/zh-Hant/Microsoft.Expression.Controls.xml",
+        "lib/net40/zh-Hant/Microsoft.Expression.Drawing.xml",
+        "lib/net40/zh-Hant/Microsoft.Expression.Effects.xml",
+        "lib/net40/zh-Hant/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net40/zh-Hant/Microsoft.Expression.Interactions.xml",
+        "lib/net40/zh-Hant/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net40/zh-Hant/System.Windows.Interactivity.resources.dll",
+        "lib/net40/zh-Hant/System.Windows.Interactivity.xml",
+        "lib/net45/Design/Microsoft.Expression.Controls.Design.dll",
+        "lib/net45/Design/Microsoft.Expression.Drawing.Design.dll",
+        "lib/net45/Design/Microsoft.Expression.Effects.Design.dll",
+        "lib/net45/Design/Microsoft.Expression.Prototyping.SketchControls.design.v4.dll",
+        "lib/net45/Design/de/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/de/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/de/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/en/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/en/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/en/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/es/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/es/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/es/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/fr/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/fr/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/fr/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/it/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/it/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/it/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/ja/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/ja/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/ja/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/ko/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/ko/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/ko/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/ru/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/ru/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/ru/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/zh-Hans/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/zh-Hans/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/zh-Hans/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Design/zh-Hant/Microsoft.Expression.Controls.Design.resources.dll",
+        "lib/net45/Design/zh-Hant/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/zh-Hant/Microsoft.Expression.Effects.Design.resources.dll",
+        "lib/net45/Microsoft.Expression.Controls.dll",
+        "lib/net45/Microsoft.Expression.Drawing.dll",
+        "lib/net45/Microsoft.Expression.Effects.dll",
+        "lib/net45/Microsoft.Expression.Interactions.dll",
+        "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll",
+        "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/net45/en/Microsoft.Expression.Controls.xml",
+        "lib/net45/en/Microsoft.Expression.Drawing.xml",
+        "lib/net45/en/Microsoft.Expression.Effects.xml",
+        "lib/net45/en/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/en/Microsoft.Expression.Interactions.xml",
+        "lib/net45/en/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/en/System.Windows.Interactivity.resources.dll",
+        "lib/net45/en/System.Windows.Interactivity.xml",
+        "lib/net45/es/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/es/Microsoft.Expression.Controls.xml",
+        "lib/net45/es/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/es/Microsoft.Expression.Drawing.xml",
+        "lib/net45/es/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/es/Microsoft.Expression.Effects.xml",
+        "lib/net45/es/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/es/Microsoft.Expression.Interactions.xml",
+        "lib/net45/es/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/es/System.Windows.Interactivity.resources.dll",
+        "lib/net45/es/System.Windows.Interactivity.xml",
+        "lib/net45/fr/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/fr/Microsoft.Expression.Controls.xml",
+        "lib/net45/fr/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/fr/Microsoft.Expression.Drawing.xml",
+        "lib/net45/fr/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/fr/Microsoft.Expression.Effects.xml",
+        "lib/net45/fr/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/fr/Microsoft.Expression.Interactions.xml",
+        "lib/net45/fr/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/fr/System.Windows.Interactivity.resources.dll",
+        "lib/net45/fr/System.Windows.Interactivity.xml",
+        "lib/net45/it/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/it/Microsoft.Expression.Controls.xml",
+        "lib/net45/it/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/it/Microsoft.Expression.Drawing.xml",
+        "lib/net45/it/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/it/Microsoft.Expression.Effects.xml",
+        "lib/net45/it/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/it/Microsoft.Expression.Interactions.xml",
+        "lib/net45/it/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/it/System.Windows.Interactivity.resources.dll",
+        "lib/net45/it/System.Windows.Interactivity.xml",
+        "lib/net45/ja/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/ja/Microsoft.Expression.Controls.xml",
+        "lib/net45/ja/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/ja/Microsoft.Expression.Drawing.xml",
+        "lib/net45/ja/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/ja/Microsoft.Expression.Effects.xml",
+        "lib/net45/ja/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/ja/Microsoft.Expression.Interactions.xml",
+        "lib/net45/ja/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/ja/System.Windows.Interactivity.resources.dll",
+        "lib/net45/ja/System.Windows.Interactivity.xml",
+        "lib/net45/ko/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/ko/Microsoft.Expression.Controls.xml",
+        "lib/net45/ko/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/ko/Microsoft.Expression.Drawing.xml",
+        "lib/net45/ko/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/ko/Microsoft.Expression.Effects.xml",
+        "lib/net45/ko/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/ko/Microsoft.Expression.Interactions.xml",
+        "lib/net45/ko/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/ko/System.Windows.Interactivity.resources.dll",
+        "lib/net45/ko/System.Windows.Interactivity.xml",
+        "lib/net45/ru/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/ru/Microsoft.Expression.Controls.xml",
+        "lib/net45/ru/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/ru/Microsoft.Expression.Drawing.xml",
+        "lib/net45/ru/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/ru/Microsoft.Expression.Effects.xml",
+        "lib/net45/ru/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/ru/Microsoft.Expression.Interactions.xml",
+        "lib/net45/ru/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/ru/System.Windows.Interactivity.resources.dll",
+        "lib/net45/ru/System.Windows.Interactivity.xml",
+        "lib/net45/zh-Hans/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.Expression.Controls.xml",
+        "lib/net45/zh-Hans/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.Expression.Drawing.xml",
+        "lib/net45/zh-Hans/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.Expression.Effects.xml",
+        "lib/net45/zh-Hans/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.Expression.Interactions.xml",
+        "lib/net45/zh-Hans/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/zh-Hans/System.Windows.Interactivity.resources.dll",
+        "lib/net45/zh-Hans/System.Windows.Interactivity.xml",
+        "lib/net45/zh-Hant/Microsoft.Expression.Controls.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.Expression.Controls.xml",
+        "lib/net45/zh-Hant/Microsoft.Expression.Drawing.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.Expression.Drawing.xml",
+        "lib/net45/zh-Hant/Microsoft.Expression.Effects.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.Expression.Effects.xml",
+        "lib/net45/zh-Hant/Microsoft.Expression.Interactions.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.Expression.Interactions.xml",
+        "lib/net45/zh-Hant/Microsoft.Expression.Prototyping.Interactivity.resources.dll",
+        "lib/net45/zh-Hant/System.Windows.Interactivity.resources.dll",
+        "lib/net45/zh-Hant/System.Windows.Interactivity.xml"
+      ]
+    },
+    "MahApps.Metro/1.6.5": {
+      "sha512": "XFxACnPbTAZ9qYcXMqFDLXXEpAbLj3BYaXqwH8NoY0sfSAYepEpE4C53Nd6AI4TnQ+nmDugtO8dwsAXPtt0SXQ==",
+      "type": "package",
+      "path": "mahapps.metro/1.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MahApps.Metro.dll",
+        "lib/net40/MahApps.Metro.pdb",
+        "lib/net40/MahApps.Metro.xml",
+        "lib/net45/MahApps.Metro.dll",
+        "lib/net45/MahApps.Metro.pdb",
+        "lib/net45/MahApps.Metro.xml",
+        "lib/net46/MahApps.Metro.dll",
+        "lib/net46/MahApps.Metro.pdb",
+        "lib/net46/MahApps.Metro.xml",
+        "lib/net47/MahApps.Metro.dll",
+        "lib/net47/MahApps.Metro.pdb",
+        "lib/net47/MahApps.Metro.xml",
+        "mahapps.metro.1.6.5.nupkg.sha512",
+        "mahapps.metro.nuspec"
+      ]
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+      "sha512": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+      "type": "package",
+      "path": "microsoft.netframework.referenceassemblies/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+        "microsoft.netframework.referenceassemblies.nuspec"
+      ]
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies.net472/1.0.3": {
+      "sha512": "0E7evZXHXaDYYiLRfpyXvCh+yzM2rNTyuZDI+ZO7UUqSc6GfjePiXTdqJGtgIKUwdI81tzQKmaWprnUiPj9hAw==",
+      "type": "package",
+      "path": "microsoft.netframework.referenceassemblies.net472/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/.NETFramework/v4.7.2/Accessibility.dll",
+        "build/.NETFramework/v4.7.2/Accessibility.xml",
+        "build/.NETFramework/v4.7.2/CustomMarshalers.dll",
+        "build/.NETFramework/v4.7.2/CustomMarshalers.xml",
+        "build/.NETFramework/v4.7.2/Facades/Microsoft.Win32.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.AppContext.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Collections.Concurrent.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Collections.NonGeneric.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Collections.Specialized.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Collections.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ComponentModel.Annotations.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ComponentModel.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ComponentModel.TypeConverter.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ComponentModel.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Console.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Data.Common.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Contracts.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Debug.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Process.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.StackTrace.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Tools.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Diagnostics.TraceSource.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Drawing.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Dynamic.Runtime.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Globalization.Calendars.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Globalization.Extensions.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Globalization.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.Compression.ZipFile.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.Watcher.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.IsolatedStorage.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.MemoryMappedFiles.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.Pipes.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.IO.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Linq.Expressions.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Linq.Parallel.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Linq.Queryable.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Linq.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.Http.Rtc.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.NameResolution.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.NetworkInformation.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.Ping.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.Requests.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.Security.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.Sockets.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.WebHeaderCollection.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.WebSockets.Client.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Net.WebSockets.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ObjectModel.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Reflection.Emit.Lightweight.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Reflection.Emit.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Reflection.Extensions.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Reflection.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Reflection.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Resources.Reader.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Resources.ResourceManager.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Resources.Writer.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.Extensions.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.Handles.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.InteropServices.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.Numerics.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Formatters.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Json.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Xml.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Runtime.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.Claims.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Algorithms.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Csp.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Encoding.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.Principal.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Security.SecureString.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Duplex.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Http.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ServiceModel.NetTcp.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Primitives.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Security.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Text.Encoding.Extensions.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Text.Encoding.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Text.RegularExpressions.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Threading.Overlapped.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Threading.Tasks.Parallel.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Threading.Tasks.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Threading.Thread.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Threading.ThreadPool.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Threading.Timer.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Threading.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.ValueTuple.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Xml.ReaderWriter.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Xml.XDocument.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Xml.XPath.XDocument.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Xml.XPath.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Xml.XmlDocument.dll",
+        "build/.NETFramework/v4.7.2/Facades/System.Xml.XmlSerializer.dll",
+        "build/.NETFramework/v4.7.2/Facades/netstandard.dll",
+        "build/.NETFramework/v4.7.2/ISymWrapper.dll",
+        "build/.NETFramework/v4.7.2/ISymWrapper.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.Activities.Build.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.Activities.Build.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Conversion.v4.0.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Conversion.v4.0.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Engine.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Engine.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Framework.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Framework.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Tasks.v4.0.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Tasks.v4.0.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Utilities.v4.0.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.Utilities.v4.0.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.Build.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.CSharp.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.CSharp.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.JScript.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.JScript.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualBasic.Compatibility.Data.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualBasic.Compatibility.Data.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualBasic.Compatibility.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualBasic.Compatibility.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualBasic.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualBasic.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualC.STLCLR.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualC.STLCLR.xml",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualC.dll",
+        "build/.NETFramework/v4.7.2/Microsoft.VisualC.xml",
+        "build/.NETFramework/v4.7.2/PermissionSets/FullTrust.xml",
+        "build/.NETFramework/v4.7.2/PermissionSets/Internet.xml",
+        "build/.NETFramework/v4.7.2/PermissionSets/LocalIntranet.xml",
+        "build/.NETFramework/v4.7.2/PresentationBuildTasks.dll",
+        "build/.NETFramework/v4.7.2/PresentationBuildTasks.xml",
+        "build/.NETFramework/v4.7.2/PresentationCore.dll",
+        "build/.NETFramework/v4.7.2/PresentationCore.xml",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Aero.dll",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Aero.xml",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Aero2.dll",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Aero2.xml",
+        "build/.NETFramework/v4.7.2/PresentationFramework.AeroLite.dll",
+        "build/.NETFramework/v4.7.2/PresentationFramework.AeroLite.xml",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Classic.dll",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Classic.xml",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Luna.dll",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Luna.xml",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Royale.dll",
+        "build/.NETFramework/v4.7.2/PresentationFramework.Royale.xml",
+        "build/.NETFramework/v4.7.2/PresentationFramework.dll",
+        "build/.NETFramework/v4.7.2/PresentationFramework.xml",
+        "build/.NETFramework/v4.7.2/ReachFramework.dll",
+        "build/.NETFramework/v4.7.2/ReachFramework.xml",
+        "build/.NETFramework/v4.7.2/RedistList/FrameworkList.xml",
+        "build/.NETFramework/v4.7.2/System.Activities.Core.Presentation.dll",
+        "build/.NETFramework/v4.7.2/System.Activities.Core.Presentation.xml",
+        "build/.NETFramework/v4.7.2/System.Activities.DurableInstancing.dll",
+        "build/.NETFramework/v4.7.2/System.Activities.DurableInstancing.xml",
+        "build/.NETFramework/v4.7.2/System.Activities.Presentation.dll",
+        "build/.NETFramework/v4.7.2/System.Activities.Presentation.xml",
+        "build/.NETFramework/v4.7.2/System.Activities.dll",
+        "build/.NETFramework/v4.7.2/System.Activities.xml",
+        "build/.NETFramework/v4.7.2/System.AddIn.Contract.dll",
+        "build/.NETFramework/v4.7.2/System.AddIn.Contract.xml",
+        "build/.NETFramework/v4.7.2/System.AddIn.dll",
+        "build/.NETFramework/v4.7.2/System.AddIn.xml",
+        "build/.NETFramework/v4.7.2/System.ComponentModel.Composition.Registration.dll",
+        "build/.NETFramework/v4.7.2/System.ComponentModel.Composition.Registration.xml",
+        "build/.NETFramework/v4.7.2/System.ComponentModel.Composition.dll",
+        "build/.NETFramework/v4.7.2/System.ComponentModel.Composition.xml",
+        "build/.NETFramework/v4.7.2/System.ComponentModel.DataAnnotations.dll",
+        "build/.NETFramework/v4.7.2/System.ComponentModel.DataAnnotations.xml",
+        "build/.NETFramework/v4.7.2/System.Configuration.Install.dll",
+        "build/.NETFramework/v4.7.2/System.Configuration.Install.xml",
+        "build/.NETFramework/v4.7.2/System.Configuration.dll",
+        "build/.NETFramework/v4.7.2/System.Configuration.xml",
+        "build/.NETFramework/v4.7.2/System.Core.dll",
+        "build/.NETFramework/v4.7.2/System.Core.xml",
+        "build/.NETFramework/v4.7.2/System.Data.DataSetExtensions.dll",
+        "build/.NETFramework/v4.7.2/System.Data.DataSetExtensions.xml",
+        "build/.NETFramework/v4.7.2/System.Data.Entity.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Data.Entity.Design.xml",
+        "build/.NETFramework/v4.7.2/System.Data.Entity.dll",
+        "build/.NETFramework/v4.7.2/System.Data.Entity.xml",
+        "build/.NETFramework/v4.7.2/System.Data.Linq.dll",
+        "build/.NETFramework/v4.7.2/System.Data.Linq.xml",
+        "build/.NETFramework/v4.7.2/System.Data.OracleClient.dll",
+        "build/.NETFramework/v4.7.2/System.Data.OracleClient.xml",
+        "build/.NETFramework/v4.7.2/System.Data.Services.Client.dll",
+        "build/.NETFramework/v4.7.2/System.Data.Services.Client.xml",
+        "build/.NETFramework/v4.7.2/System.Data.Services.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Data.Services.Design.xml",
+        "build/.NETFramework/v4.7.2/System.Data.Services.dll",
+        "build/.NETFramework/v4.7.2/System.Data.Services.xml",
+        "build/.NETFramework/v4.7.2/System.Data.SqlXml.dll",
+        "build/.NETFramework/v4.7.2/System.Data.SqlXml.xml",
+        "build/.NETFramework/v4.7.2/System.Data.dll",
+        "build/.NETFramework/v4.7.2/System.Data.xml",
+        "build/.NETFramework/v4.7.2/System.Deployment.dll",
+        "build/.NETFramework/v4.7.2/System.Deployment.xml",
+        "build/.NETFramework/v4.7.2/System.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Design.xml",
+        "build/.NETFramework/v4.7.2/System.Device.dll",
+        "build/.NETFramework/v4.7.2/System.Device.xml",
+        "build/.NETFramework/v4.7.2/System.Diagnostics.Tracing.dll",
+        "build/.NETFramework/v4.7.2/System.Diagnostics.Tracing.xml",
+        "build/.NETFramework/v4.7.2/System.DirectoryServices.AccountManagement.dll",
+        "build/.NETFramework/v4.7.2/System.DirectoryServices.AccountManagement.xml",
+        "build/.NETFramework/v4.7.2/System.DirectoryServices.Protocols.dll",
+        "build/.NETFramework/v4.7.2/System.DirectoryServices.Protocols.xml",
+        "build/.NETFramework/v4.7.2/System.DirectoryServices.dll",
+        "build/.NETFramework/v4.7.2/System.DirectoryServices.xml",
+        "build/.NETFramework/v4.7.2/System.Drawing.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Drawing.Design.xml",
+        "build/.NETFramework/v4.7.2/System.Drawing.dll",
+        "build/.NETFramework/v4.7.2/System.Drawing.xml",
+        "build/.NETFramework/v4.7.2/System.Dynamic.dll",
+        "build/.NETFramework/v4.7.2/System.EnterpriseServices.Thunk.dll",
+        "build/.NETFramework/v4.7.2/System.EnterpriseServices.Wrapper.dll",
+        "build/.NETFramework/v4.7.2/System.EnterpriseServices.dll",
+        "build/.NETFramework/v4.7.2/System.EnterpriseServices.xml",
+        "build/.NETFramework/v4.7.2/System.IO.Compression.FileSystem.dll",
+        "build/.NETFramework/v4.7.2/System.IO.Compression.FileSystem.xml",
+        "build/.NETFramework/v4.7.2/System.IO.Compression.dll",
+        "build/.NETFramework/v4.7.2/System.IO.Compression.xml",
+        "build/.NETFramework/v4.7.2/System.IO.Log.dll",
+        "build/.NETFramework/v4.7.2/System.IO.Log.xml",
+        "build/.NETFramework/v4.7.2/System.IdentityModel.Selectors.dll",
+        "build/.NETFramework/v4.7.2/System.IdentityModel.Selectors.xml",
+        "build/.NETFramework/v4.7.2/System.IdentityModel.Services.dll",
+        "build/.NETFramework/v4.7.2/System.IdentityModel.Services.xml",
+        "build/.NETFramework/v4.7.2/System.IdentityModel.dll",
+        "build/.NETFramework/v4.7.2/System.IdentityModel.xml",
+        "build/.NETFramework/v4.7.2/System.Linq.xml",
+        "build/.NETFramework/v4.7.2/System.Management.Instrumentation.dll",
+        "build/.NETFramework/v4.7.2/System.Management.Instrumentation.xml",
+        "build/.NETFramework/v4.7.2/System.Management.dll",
+        "build/.NETFramework/v4.7.2/System.Management.xml",
+        "build/.NETFramework/v4.7.2/System.Messaging.dll",
+        "build/.NETFramework/v4.7.2/System.Messaging.xml",
+        "build/.NETFramework/v4.7.2/System.Net.Http.WebRequest.dll",
+        "build/.NETFramework/v4.7.2/System.Net.Http.WebRequest.xml",
+        "build/.NETFramework/v4.7.2/System.Net.Http.dll",
+        "build/.NETFramework/v4.7.2/System.Net.Http.xml",
+        "build/.NETFramework/v4.7.2/System.Net.dll",
+        "build/.NETFramework/v4.7.2/System.Net.xml",
+        "build/.NETFramework/v4.7.2/System.Numerics.dll",
+        "build/.NETFramework/v4.7.2/System.Numerics.xml",
+        "build/.NETFramework/v4.7.2/System.Printing.dll",
+        "build/.NETFramework/v4.7.2/System.Printing.xml",
+        "build/.NETFramework/v4.7.2/System.Reflection.Context.dll",
+        "build/.NETFramework/v4.7.2/System.Reflection.Context.xml",
+        "build/.NETFramework/v4.7.2/System.Runtime.Caching.dll",
+        "build/.NETFramework/v4.7.2/System.Runtime.Caching.xml",
+        "build/.NETFramework/v4.7.2/System.Runtime.DurableInstancing.dll",
+        "build/.NETFramework/v4.7.2/System.Runtime.DurableInstancing.xml",
+        "build/.NETFramework/v4.7.2/System.Runtime.Remoting.dll",
+        "build/.NETFramework/v4.7.2/System.Runtime.Remoting.xml",
+        "build/.NETFramework/v4.7.2/System.Runtime.Serialization.Formatters.Soap.dll",
+        "build/.NETFramework/v4.7.2/System.Runtime.Serialization.Formatters.Soap.xml",
+        "build/.NETFramework/v4.7.2/System.Runtime.Serialization.dll",
+        "build/.NETFramework/v4.7.2/System.Runtime.Serialization.xml",
+        "build/.NETFramework/v4.7.2/System.Security.dll",
+        "build/.NETFramework/v4.7.2/System.Security.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Activation.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Activation.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Activities.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Activities.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Channels.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Channels.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Discovery.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Discovery.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Routing.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Routing.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Web.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.Web.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceModel.xml",
+        "build/.NETFramework/v4.7.2/System.ServiceProcess.dll",
+        "build/.NETFramework/v4.7.2/System.ServiceProcess.xml",
+        "build/.NETFramework/v4.7.2/System.Speech.dll",
+        "build/.NETFramework/v4.7.2/System.Speech.xml",
+        "build/.NETFramework/v4.7.2/System.Threading.Tasks.Dataflow.xml",
+        "build/.NETFramework/v4.7.2/System.Transactions.dll",
+        "build/.NETFramework/v4.7.2/System.Transactions.xml",
+        "build/.NETFramework/v4.7.2/System.Web.Abstractions.dll",
+        "build/.NETFramework/v4.7.2/System.Web.ApplicationServices.dll",
+        "build/.NETFramework/v4.7.2/System.Web.ApplicationServices.xml",
+        "build/.NETFramework/v4.7.2/System.Web.DataVisualization.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Web.DataVisualization.dll",
+        "build/.NETFramework/v4.7.2/System.Web.DataVisualization.xml",
+        "build/.NETFramework/v4.7.2/System.Web.DynamicData.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Web.DynamicData.Design.xml",
+        "build/.NETFramework/v4.7.2/System.Web.DynamicData.dll",
+        "build/.NETFramework/v4.7.2/System.Web.DynamicData.xml",
+        "build/.NETFramework/v4.7.2/System.Web.Entity.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Web.Entity.Design.xml",
+        "build/.NETFramework/v4.7.2/System.Web.Entity.dll",
+        "build/.NETFramework/v4.7.2/System.Web.Entity.xml",
+        "build/.NETFramework/v4.7.2/System.Web.Extensions.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Web.Extensions.Design.xml",
+        "build/.NETFramework/v4.7.2/System.Web.Extensions.dll",
+        "build/.NETFramework/v4.7.2/System.Web.Extensions.xml",
+        "build/.NETFramework/v4.7.2/System.Web.Mobile.dll",
+        "build/.NETFramework/v4.7.2/System.Web.Mobile.xml",
+        "build/.NETFramework/v4.7.2/System.Web.RegularExpressions.dll",
+        "build/.NETFramework/v4.7.2/System.Web.RegularExpressions.xml",
+        "build/.NETFramework/v4.7.2/System.Web.Routing.dll",
+        "build/.NETFramework/v4.7.2/System.Web.Services.dll",
+        "build/.NETFramework/v4.7.2/System.Web.Services.xml",
+        "build/.NETFramework/v4.7.2/System.Web.dll",
+        "build/.NETFramework/v4.7.2/System.Web.xml",
+        "build/.NETFramework/v4.7.2/System.Windows.Controls.Ribbon.dll",
+        "build/.NETFramework/v4.7.2/System.Windows.Controls.Ribbon.xml",
+        "build/.NETFramework/v4.7.2/System.Windows.Forms.DataVisualization.Design.dll",
+        "build/.NETFramework/v4.7.2/System.Windows.Forms.DataVisualization.dll",
+        "build/.NETFramework/v4.7.2/System.Windows.Forms.DataVisualization.xml",
+        "build/.NETFramework/v4.7.2/System.Windows.Forms.dll",
+        "build/.NETFramework/v4.7.2/System.Windows.Forms.xml",
+        "build/.NETFramework/v4.7.2/System.Windows.Input.Manipulations.dll",
+        "build/.NETFramework/v4.7.2/System.Windows.Input.Manipulations.xml",
+        "build/.NETFramework/v4.7.2/System.Windows.Presentation.dll",
+        "build/.NETFramework/v4.7.2/System.Windows.Presentation.xml",
+        "build/.NETFramework/v4.7.2/System.Windows.dll",
+        "build/.NETFramework/v4.7.2/System.Workflow.Activities.dll",
+        "build/.NETFramework/v4.7.2/System.Workflow.Activities.xml",
+        "build/.NETFramework/v4.7.2/System.Workflow.ComponentModel.dll",
+        "build/.NETFramework/v4.7.2/System.Workflow.ComponentModel.xml",
+        "build/.NETFramework/v4.7.2/System.Workflow.Runtime.dll",
+        "build/.NETFramework/v4.7.2/System.Workflow.Runtime.xml",
+        "build/.NETFramework/v4.7.2/System.WorkflowServices.dll",
+        "build/.NETFramework/v4.7.2/System.WorkflowServices.xml",
+        "build/.NETFramework/v4.7.2/System.Xaml.dll",
+        "build/.NETFramework/v4.7.2/System.Xaml.xml",
+        "build/.NETFramework/v4.7.2/System.Xml.Linq.dll",
+        "build/.NETFramework/v4.7.2/System.Xml.Linq.xml",
+        "build/.NETFramework/v4.7.2/System.Xml.Serialization.dll",
+        "build/.NETFramework/v4.7.2/System.Xml.dll",
+        "build/.NETFramework/v4.7.2/System.Xml.xml",
+        "build/.NETFramework/v4.7.2/System.dll",
+        "build/.NETFramework/v4.7.2/System.xml",
+        "build/.NETFramework/v4.7.2/UIAutomationClient.dll",
+        "build/.NETFramework/v4.7.2/UIAutomationClient.xml",
+        "build/.NETFramework/v4.7.2/UIAutomationClientsideProviders.dll",
+        "build/.NETFramework/v4.7.2/UIAutomationClientsideProviders.xml",
+        "build/.NETFramework/v4.7.2/UIAutomationProvider.dll",
+        "build/.NETFramework/v4.7.2/UIAutomationProvider.xml",
+        "build/.NETFramework/v4.7.2/UIAutomationTypes.dll",
+        "build/.NETFramework/v4.7.2/UIAutomationTypes.xml",
+        "build/.NETFramework/v4.7.2/WindowsBase.dll",
+        "build/.NETFramework/v4.7.2/WindowsBase.xml",
+        "build/.NETFramework/v4.7.2/WindowsFormsIntegration.dll",
+        "build/.NETFramework/v4.7.2/WindowsFormsIntegration.xml",
+        "build/.NETFramework/v4.7.2/XamlBuildTask.dll",
+        "build/.NETFramework/v4.7.2/XamlBuildTask.xml",
+        "build/.NETFramework/v4.7.2/mscorlib.dll",
+        "build/.NETFramework/v4.7.2/mscorlib.xml",
+        "build/.NETFramework/v4.7.2/namespaces.xml",
+        "build/.NETFramework/v4.7.2/sysglobl.dll",
+        "build/.NETFramework/v4.7.2/sysglobl.xml",
+        "build/Microsoft.NETFramework.ReferenceAssemblies.net472.targets",
+        "microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512",
+        "microsoft.netframework.referenceassemblies.net472.nuspec"
+      ]
+    },
+    "MonoGame.Content.Builder/3.7.0.9": {
+      "sha512": "AAt9ns5w6c9JkZFC2UC+nB8v+kTDgRP1ONaB5lLSfzBhrGULUoNwMxiRAzi7GlPVj5yynu3PHNi8kZTOUIdF9g==",
+      "type": "package",
+      "path": "monogame.content.builder/3.7.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MGCB.zip",
+        "build/MGCB/.signature.p7s",
+        "build/MGCB/MonoGame.Content.Builder.Windows.nuspec",
+        "build/MGCB/[Content_Types].xml",
+        "build/MGCB/_rels/.rels",
+        "build/MGCB/build/ATI.TextureConverter.dll",
+        "build/MGCB/build/ATI.TextureConverter.dll.config",
+        "build/MGCB/build/Assimp64.dll",
+        "build/MGCB/build/AssimpNet.dll",
+        "build/MGCB/build/AssimpNet.dll.config",
+        "build/MGCB/build/AssimpNet.pdb",
+        "build/MGCB/build/CppNet.dll",
+        "build/MGCB/build/FreeImage.dll",
+        "build/MGCB/build/FreeImageNET.dll",
+        "build/MGCB/build/MGCB.exe",
+        "build/MGCB/build/MGCB.exe.config",
+        "build/MGCB/build/MGCB.xml",
+        "build/MGCB/build/MonoGame.Framework.Content.Pipeline.dll",
+        "build/MGCB/build/MonoGame.Framework.Content.Pipeline.xml",
+        "build/MGCB/build/MonoGame.Framework.dll",
+        "build/MGCB/build/MonoGame.Framework.xml",
+        "build/MGCB/build/Nvidia.TextureTools.dll",
+        "build/MGCB/build/Nvidia.TextureTools.dll.config",
+        "build/MGCB/build/PVRTexLibNET.dll",
+        "build/MGCB/build/PVRTexLibNET.dll.config",
+        "build/MGCB/build/PVRTexLibWrapper.dll",
+        "build/MGCB/build/SharpDX.D3DCompiler.dll",
+        "build/MGCB/build/SharpDX.D3DCompiler.xml",
+        "build/MGCB/build/SharpDX.DXGI.dll",
+        "build/MGCB/build/SharpDX.DXGI.xml",
+        "build/MGCB/build/SharpDX.Direct2D1.dll",
+        "build/MGCB/build/SharpDX.Direct2D1.xml",
+        "build/MGCB/build/SharpDX.Direct3D11.dll",
+        "build/MGCB/build/SharpDX.Direct3D11.xml",
+        "build/MGCB/build/SharpDX.MediaFoundation.dll",
+        "build/MGCB/build/SharpDX.MediaFoundation.xml",
+        "build/MGCB/build/SharpDX.XAudio2.dll",
+        "build/MGCB/build/SharpDX.XAudio2.xml",
+        "build/MGCB/build/SharpDX.XInput.dll",
+        "build/MGCB/build/SharpDX.XInput.xml",
+        "build/MGCB/build/SharpDX.dll",
+        "build/MGCB/build/SharpDX.xml",
+        "build/MGCB/build/SharpFont.dll",
+        "build/MGCB/build/ffmpeg.exe",
+        "build/MGCB/build/ffprobe.exe",
+        "build/MGCB/build/freetype6.dll",
+        "build/MGCB/build/libmojoshader_64.dll",
+        "build/MGCB/build/nvtt.dll",
+        "build/MonoGame.Content.Builder.targets",
+        "monogame.content.builder.3.7.0.9.nupkg.sha512",
+        "monogame.content.builder.nuspec",
+        "tasks/net46/MonoGame.Content.Builder.dll",
+        "tasks/netstandard2.0/MonoGame.Content.Builder.dll"
+      ]
+    },
+    "MonoGame.Extended/3.7.0": {
+      "sha512": "gnxfWcMLWke1I21T+0h8ckZnum2jzybfaDtMTk5LUaPTdLCIt4nHpRYM467JdpOte2wtUzsuTAtQtKICqYk9rg==",
+      "type": "package",
+      "path": "monogame.extended/3.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MonoGame.Extended.dll",
+        "monogame.extended.3.7.0.nupkg.sha512",
+        "monogame.extended.nuspec"
+      ]
+    },
+    "MonoGame.Framework.WindowsDX/3.7.1.189": {
+      "sha512": "gu0zcsmlFPyHgJA/Qpu7wrC/aDb/AHvdrLP4iEc2VojV0zkcg8XKqn0FfQHa43SexT+N8NmwgosfqZ8LDpkxJA==",
+      "type": "package",
+      "path": "monogame.framework.windowsdx/3.7.1.189",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoGame.Framework.WindowsDX.targets",
+        "lib/net45/MonoGame.Framework.dll",
+        "lib/net45/MonoGame.Framework.xml",
+        "monogame.framework.windowsdx.3.7.1.189.nupkg.sha512",
+        "monogame.framework.windowsdx.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Serilog/2.8.0": {
+      "sha512": "zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
+      "type": "package",
+      "path": "serilog/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.pdb",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.pdb",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.pdb",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.pdb",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.pdb",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.2.8.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Trace/3.0.0-dev-00732": {
+      "sha512": "cO41MypM13tsyETBrVz8n49zJlXQT5bCVGnTfvLed6M+4y+hhHaKc9h+h04wlyVjtRsaIBhTrgxgdYBsGVmRHQ==",
+      "type": "package",
+      "path": "serilog.sinks.trace/3.0.0-dev-00732",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Sinks.Trace.dll",
+        "lib/net45/Serilog.Sinks.Trace.xml",
+        "lib/netstandard1.3/Serilog.Sinks.Trace.dll",
+        "lib/netstandard1.3/Serilog.Sinks.Trace.xml",
+        "serilog.sinks.trace.3.0.0-dev-00732.nupkg.sha512",
+        "serilog.sinks.trace.nuspec"
+      ]
+    },
+    "SharpDX/4.2.0": {
+      "sha512": "3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "type": "package",
+      "path": "sharpdx/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/.xml",
+        "lib/net40/SharpDX.dll",
+        "lib/net40/SharpDX.pdb",
+        "lib/net45/.xml",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.pdb",
+        "lib/netstandard1.1/.xml",
+        "lib/netstandard1.1/SharpDX.dll",
+        "lib/netstandard1.1/SharpDX.pdb",
+        "lib/uap10.0/.xml",
+        "lib/uap10.0/SharpDX.dll",
+        "lib/uap10.0/SharpDX.pdb",
+        "lib/uap10.0/SharpDX.pri",
+        "sharpdx.4.2.0.nupkg.sha512",
+        "sharpdx.nuspec"
+      ]
+    },
+    "SharpDX.Direct2D1/4.0.1": {
+      "sha512": "EDBYa9kAG+gaMB4cCH7WNpxS8WijSCejNz/SERs2P1sWEPZZdUiUIruQMjPCdW3lXxT508aYiH2UXHAaZtk00g==",
+      "type": "package",
+      "path": "sharpdx.direct2d1/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct2D1.dll",
+        "lib/net40/SharpDX.Direct2D1.xml",
+        "lib/net45/SharpDX.Direct2D1.dll",
+        "lib/net45/SharpDX.Direct2D1.xml",
+        "lib/netcoreapp1.0/SharpDX.Direct2D1.dll",
+        "lib/netcoreapp1.0/SharpDX.Direct2D1.xml",
+        "lib/netstandard1.1/SharpDX.Direct2D1.dll",
+        "lib/netstandard1.1/SharpDX.Direct2D1.xml",
+        "lib/uap10.0/SharpDX.Direct2D1.dll",
+        "lib/uap10.0/SharpDX.Direct2D1.pri",
+        "lib/uap10.0/SharpDX.Direct2D1.xml",
+        "sharpdx.direct2d1.4.0.1.nupkg.sha512",
+        "sharpdx.direct2d1.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D11/4.0.1": {
+      "sha512": "7xIfeAhxPhbPgSiREfFbOOwIWonUt2GHR7XZN5p2DJMWuqjl0+h1oo2/sF+SH/c6D6APjdbt0J+dYSzoV0PA/w==",
+      "type": "package",
+      "path": "sharpdx.direct3d11/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D11.dll",
+        "lib/net40/SharpDX.Direct3D11.xml",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/netcoreapp1.0/SharpDX.Direct3D11.dll",
+        "lib/netcoreapp1.0/SharpDX.Direct3D11.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D11.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D11.xml",
+        "lib/uap10.0/SharpDX.Direct3D11.dll",
+        "lib/uap10.0/SharpDX.Direct3D11.pri",
+        "lib/uap10.0/SharpDX.Direct3D11.xml",
+        "sharpdx.direct3d11.4.0.1.nupkg.sha512",
+        "sharpdx.direct3d11.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D9/4.0.1": {
+      "sha512": "xUgVtuy3UGljCjzPe1d0yndNI+htHnpCUcMk1QpmXZHwxudUGtes1iz18JD2Zy5Xx7VzFp2+guOGWkNrJmIgEA==",
+      "type": "package",
+      "path": "sharpdx.direct3d9/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D9.dll",
+        "lib/net40/SharpDX.Direct3D9.xml",
+        "lib/net45/SharpDX.Direct3D9.dll",
+        "lib/net45/SharpDX.Direct3D9.xml",
+        "lib/netcoreapp1.0/SharpDX.Direct3D9.dll",
+        "lib/netcoreapp1.0/SharpDX.Direct3D9.xml",
+        "lib/netstandard1.3/SharpDX.Direct3D9.dll",
+        "lib/netstandard1.3/SharpDX.Direct3D9.xml",
+        "sharpdx.direct3d9.4.0.1.nupkg.sha512",
+        "sharpdx.direct3d9.nuspec"
+      ]
+    },
+    "SharpDX.DXGI/4.0.1": {
+      "sha512": "Av/kToUkVR1tDtIP9zmDGwCuCtyL04+PP7kes6aABzky1Y9vT03kR7mDeE83gl+E8GUmMMbVXbQ4AG2CVb66sg==",
+      "type": "package",
+      "path": "sharpdx.dxgi/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DXGI.dll",
+        "lib/net40/SharpDX.DXGI.xml",
+        "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.xml",
+        "lib/netcoreapp1.0/SharpDX.DXGI.dll",
+        "lib/netcoreapp1.0/SharpDX.DXGI.xml",
+        "lib/netstandard1.1/SharpDX.DXGI.dll",
+        "lib/netstandard1.1/SharpDX.DXGI.xml",
+        "lib/uap10.0/SharpDX.DXGI.dll",
+        "lib/uap10.0/SharpDX.DXGI.pri",
+        "lib/uap10.0/SharpDX.DXGI.xml",
+        "sharpdx.dxgi.4.0.1.nupkg.sha512",
+        "sharpdx.dxgi.nuspec"
+      ]
+    },
+    "SharpDX.Mathematics/4.0.1": {
+      "sha512": "txMROd5A4mICHRRPf5KHA5MVNEqFUdOg2ZYfqNqjQM1n2jfe+sxDG3Xs+aO5zAShJAZFD6xO5R7yGfn9CzHckQ==",
+      "type": "package",
+      "path": "sharpdx.mathematics/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Mathematics.dll",
+        "lib/net40/SharpDX.Mathematics.xml",
+        "lib/net45/SharpDX.Mathematics.dll",
+        "lib/net45/SharpDX.Mathematics.xml",
+        "lib/netcoreapp1.0/SharpDX.Mathematics.dll",
+        "lib/netcoreapp1.0/SharpDX.Mathematics.xml",
+        "lib/netstandard1.1/SharpDX.Mathematics.dll",
+        "lib/netstandard1.1/SharpDX.Mathematics.xml",
+        "lib/uap10.0/SharpDX.Mathematics.dll",
+        "lib/uap10.0/SharpDX.Mathematics.pri",
+        "lib/uap10.0/SharpDX.Mathematics.xml",
+        "sharpdx.mathematics.4.0.1.nupkg.sha512",
+        "sharpdx.mathematics.nuspec"
+      ]
+    },
+    "SharpDX.MediaFoundation/4.0.1": {
+      "sha512": "/po30bqI6n14db6eHirTLJYEVV8/Wi0DGn2OJGtEnf5/++jUOhMR5Z1Xi84wOldXgf+7WKXOML2BhpqCPWVC2g==",
+      "type": "package",
+      "path": "sharpdx.mediafoundation/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.MediaFoundation.dll",
+        "lib/net40/SharpDX.MediaFoundation.xml",
+        "lib/net45/SharpDX.MediaFoundation.dll",
+        "lib/net45/SharpDX.MediaFoundation.xml",
+        "lib/netcoreapp1.0/SharpDX.MediaFoundation.dll",
+        "lib/netcoreapp1.0/SharpDX.MediaFoundation.xml",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.dll",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.xml",
+        "lib/uap10.0/SharpDX.MediaFoundation.dll",
+        "lib/uap10.0/SharpDX.MediaFoundation.pri",
+        "lib/uap10.0/SharpDX.MediaFoundation.xml",
+        "sharpdx.mediafoundation.4.0.1.nupkg.sha512",
+        "sharpdx.mediafoundation.nuspec"
+      ]
+    },
+    "SharpDX.XAudio2/4.0.1": {
+      "sha512": "Kok1XdV2vEKSdr+EcGf0xFNBAd1tcjp/TZeRNBNVgB5YYoUGASoNO2decCBi7vh9qdocN+pmuuOiZCtDOd9DgQ==",
+      "type": "package",
+      "path": "sharpdx.xaudio2/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.XAudio2.dll",
+        "lib/net40/SharpDX.XAudio2.xml",
+        "lib/net45/SharpDX.XAudio2.dll",
+        "lib/net45/SharpDX.XAudio2.xml",
+        "lib/netcoreapp1.0/SharpDX.XAudio2.dll",
+        "lib/netcoreapp1.0/SharpDX.XAudio2.xml",
+        "lib/netstandard1.1/SharpDX.XAudio2.dll",
+        "lib/netstandard1.1/SharpDX.XAudio2.xml",
+        "lib/uap10.0/SharpDX.XAudio2.dll",
+        "lib/uap10.0/SharpDX.XAudio2.pri",
+        "lib/uap10.0/SharpDX.XAudio2.xml",
+        "sharpdx.xaudio2.4.0.1.nupkg.sha512",
+        "sharpdx.xaudio2.nuspec"
+      ]
+    },
+    "SharpDX.XInput/4.0.1": {
+      "sha512": "vDnp6CTVC9dKQHwLVF4GLNdCJqGMUuxyZLLlorDjgnVOOO7koPR20/tqt1A53gnNy/Id93Nzq7K2ILLvBQWvGQ==",
+      "type": "package",
+      "path": "sharpdx.xinput/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.XInput.dll",
+        "lib/net40/SharpDX.XInput.xml",
+        "lib/net45/SharpDX.XInput.dll",
+        "lib/net45/SharpDX.XInput.xml",
+        "lib/netcoreapp1.0/SharpDX.XInput.dll",
+        "lib/netcoreapp1.0/SharpDX.XInput.xml",
+        "lib/netstandard1.1/SharpDX.XInput.dll",
+        "lib/netstandard1.1/SharpDX.XInput.xml",
+        "lib/uap10.0/SharpDX.XInput.dll",
+        "lib/uap10.0/SharpDX.XInput.pri",
+        "lib/uap10.0/SharpDX.XInput.xml",
+        "sharpdx.xinput.4.0.1.nupkg.sha512",
+        "sharpdx.xinput.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "sha512": "EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "type": "package",
+      "path": "system.collections.immutable/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.5.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "type": "package",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net461/System.ComponentModel.Annotations.dll",
+        "lib/netcore50/System.ComponentModel.Annotations.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/portable-net45+win8/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net461/System.ComponentModel.Annotations.dll",
+        "ref/net461/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/System.ComponentModel.Annotations.dll",
+        "ref/netcore50/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/de/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/es/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/it/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/portable-net45+win8/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.annotations.4.5.0.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/4.4.1": {
+      "sha512": "jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.4.1.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.Serialization.Formatters/4.3.0": {
+      "sha512": "KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "type": "package",
+      "path": "system.runtime.serialization.formatters/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Runtime.Serialization.Formatters.dll",
+        "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Runtime.Serialization.Formatters.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Formatters.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.formatters.nuspec"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "type": "package",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Runtime.Serialization.Primitives.dll",
+        "lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.nuspec"
+      ]
+    },
+    "System.Runtime.Serialization.Xml/4.3.0": {
+      "sha512": "nUQx/5OVgrqEba3+j7OdiofvVq9koWZAC7Z3xGI8IIViZqApWnZ5+lLcwYgTlbkobrl/Rat+Jb8GeD4WQESD2A==",
+      "type": "package",
+      "path": "system.runtime.serialization.xml/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Runtime.Serialization.Xml.dll",
+        "lib/netcore50/System.Runtime.Serialization.Xml.dll",
+        "lib/netstandard1.3/System.Runtime.Serialization.Xml.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Runtime.Serialization.Xml.dll",
+        "ref/netcore50/System.Runtime.Serialization.Xml.dll",
+        "ref/netcore50/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/de/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/es/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/fr/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/it/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/ja/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/ko/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/ru/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Serialization.Xml.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/System.Runtime.Serialization.Xml.dll",
+        "ref/netstandard1.0/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/de/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/es/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/it/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/System.Runtime.Serialization.Xml.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/de/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/es/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/it/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Xml.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Xml.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.serialization.xml.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.xml.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Catel.MVVM >= 5.11.0",
+      "MahApps.Metro >= 1.6.5",
+      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
+      "MonoGame.Content.Builder >= 3.7.0.9",
+      "MonoGame.Extended >= 3.7.0",
+      "MonoGame.Framework.WindowsDX >= 3.7.1.189",
+      "Serilog >= 2.8.0",
+      "Serilog.Sinks.Trace >= 3.0.0-dev-00732",
+      "SharpDX >= 4.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Matias\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\ChelosSpriteAnimator.csproj",
+      "projectName": "ChelosSpriteAnimator",
+      "projectPath": "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\ChelosSpriteAnimator.csproj",
+      "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
+      "outputPath": "D:\\ChelosSpriteAnimator\\WpfApp1\\ChelosSpriteAnimator\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "Catel.MVVM": {
+            "target": "Package",
+            "version": "[5.11.0, )"
+          },
+          "MahApps.Metro": {
+            "target": "Package",
+            "version": "[1.6.5, )"
+          },
+          "Microsoft.NETFramework.ReferenceAssemblies": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.3, )",
+            "autoReferenced": true
+          },
+          "MonoGame.Content.Builder": {
+            "target": "Package",
+            "version": "[3.7.0.9, )"
+          },
+          "MonoGame.Extended": {
+            "target": "Package",
+            "version": "[3.7.0, )"
+          },
+          "MonoGame.Framework.WindowsDX": {
+            "target": "Package",
+            "version": "[3.7.1.189, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[2.8.0, )"
+          },
+          "Serilog.Sinks.Trace": {
+            "target": "Package",
+            "version": "[3.0.0-dev-00732, )"
+          },
+          "SharpDX": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  }
+}

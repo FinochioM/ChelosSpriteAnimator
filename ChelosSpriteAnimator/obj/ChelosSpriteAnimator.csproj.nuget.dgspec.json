@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -86,7 +81,7 @@
         }
       },
       "runtimes": {
-        "win-x64": {
+        "win7-x86": {
           "#import": []
         }
       }

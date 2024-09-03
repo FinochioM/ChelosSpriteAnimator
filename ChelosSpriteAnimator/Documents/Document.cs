@@ -1,14 +1,13 @@
 ﻿using System;
 using System.IO;
 using ChelosSpriteAnimator.Json;
+using ChelosSpriteAnimator.Sprites;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
 namespace ChelosSpriteAnimator.Documents
 {
-
-
     public class Document<T> where T : new()
     {
         private Document(string fullPath, T content)
@@ -40,7 +39,8 @@ namespace ChelosSpriteAnimator.Documents
                 FullPath = fullPath;
 
                 var jsonSerializer = CreateJsonSerializer();
-
+                
+                // Save csa file.
                 using (var streamWriter = new StreamWriter(fullPath))
                 using (var jsonWriter = new JsonTextWriter(streamWriter))
                 {

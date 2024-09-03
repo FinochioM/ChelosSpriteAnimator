@@ -119,3 +119,4 @@ D:\ChelosSpriteAnimator\WpfApp1\ChelosSpriteAnimator\obj\Debug\net472\ChelosSpri
 D:\ChelosSpriteAnimator\WpfApp1\ChelosSpriteAnimator\obj\Debug\net472\ChelosSp.CFD7568B.Up2Date
 D:\ChelosSpriteAnimator\WpfApp1\ChelosSpriteAnimator\obj\Debug\net472\ChelosSpriteAnimator.exe
 D:\ChelosSpriteAnimator\WpfApp1\ChelosSpriteAnimator\obj\Debug\net472\ChelosSpriteAnimator.pdb
+D:\ChelosSpriteAnimator\WpfApp1\ChelosSpriteAnimator\obj\Debug\net472\ChelosSpriteAnimator.sourcelink.json

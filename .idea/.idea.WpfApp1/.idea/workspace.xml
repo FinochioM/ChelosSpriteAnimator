@@ -7,11 +7,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5173a6-8742-4b3b-bbfa-b7bdc01ef0dd" name="Changes" comment="" />
+    <list default="true" id="da5173a6-8742-4b3b-bbfa-b7bdc01ef0dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/bin/Debug/net472/ChelosSpriteAnimator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/bin/Debug/net472/ChelosSpriteAnimator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/bin/Debug/net472/ChelosSpriteAnimator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/bin/Debug/net472/ChelosSpriteAnimator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/ChelosSpriteAnimator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/ChelosSpriteAnimator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/ChelosSpriteAnimator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/ChelosSpriteAnimator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/Debug/net472/ChelosSpriteAnimator_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ChelosSpriteAnimator/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/997ec006af6b4faeaa1818de059a29db576a20/6d/8b0c47a7/AssemblyName.cs" root0="SKIP_HIGHLIGHTING" />
@@ -21,10 +40,14 @@
     <setting file="file://$PROJECT_DIR$/ChelosSpriteAnimator/Sprites/EditorView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChelosSpriteAnimator/Sprites/EditorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2lSBZf5CLfIkrMLy046RTLOq1ea" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +58,7 @@
     &quot;.NET Project.WpfApp1.executor&quot;: &quot;Run&quot;,
     &quot;Publish to folder.Chelos Sprite Animator.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,15 +106,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725163653848</updated>
-      <workItem from="1725163655162" duration="11852000" />
+      <workItem from="1725163655162" duration="13044000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1725178933681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725178933681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

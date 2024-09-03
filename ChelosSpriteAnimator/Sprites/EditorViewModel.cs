@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
@@ -13,6 +14,9 @@ using Microsoft.Xna.Framework.Input;
 using MonoGame.Extended;
 using ChelosSpriteAnimator.Documents;
 using ChelosSpriteAnimator.MonoGameControls;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using Size = MonoGame.Extended.Size;
 
 namespace ChelosSpriteAnimator.Sprites
 {
@@ -425,26 +429,37 @@ namespace ChelosSpriteAnimator.Sprites
 
         public SpriteFile GetDocumentContent(Document<SpriteFile> document)
         {
-            return new SpriteFile
+            var jsonFileName = Path.ChangeExtension(Path.GetFileName(document.FullPath), ".json");
+            var jsonFilePath = Path.Combine("JsonFiles/", jsonFileName);
+            var fullTexturePath = "ObjectComponents/Animations/Textures/" + document.GetRelativePath(TexturePath);
+            
+            var spriteFile = new SpriteFile
             {
                 TextureAtlas = new TextureAtlas
                 {
                     Texture = document.GetRelativePath(TexturePath),
+                    TexturePath = fullTexturePath,
                     RegionWidth = TileWidth,
                     RegionHeight = TileHeight
                 },
+                JsonFile = jsonFilePath,
                 Cycles = Animations.ToDictionary(a => a.Name, a => a.ToAnimationCycle())
             };
+            
+            SaveJsonFile(Path.Combine(document.Directory, jsonFileName));
+
+            return spriteFile;
         }
 
         public void SetDocumentContent(Document<SpriteFile> document)
         {
             var data = document.Content;
+            
             TexturePath = document.IsNew ? null : document.GetFullPath(data.TextureAtlas.Texture);
             TileWidth = data.TextureAtlas.RegionWidth;
             TileHeight = data.TextureAtlas.RegionHeight;
+            
             Animations.Clear();
-
             foreach (var keyValuePair in data.Cycles)
             {
                 var name = keyValuePair.Key;
@@ -452,6 +467,15 @@ namespace ChelosSpriteAnimator.Sprites
                 Animations.Add(KeyFrameAnimationViewModel.FromAnimation(name, animation, () => TexturePath, GetFrameRectangle));
             }
             SelectedAnimation = Animations.FirstOrDefault();
+            
+            if (!document.IsNew)
+            {
+                var jsonFilePath = Path.ChangeExtension(document.FullPath, ".json");
+                if (File.Exists(jsonFilePath))
+                {
+                    var jsonData = JsonConvert.DeserializeObject<List<FrameData>>(File.ReadAllText(jsonFilePath));
+                }
+            }
         }
 
         private KeyFrameViewModel GetCurrentFrame()
@@ -556,6 +580,70 @@ namespace ChelosSpriteAnimator.Sprites
                 _spriteBatch.DrawString(_spriteFont, $"frame: {frameIndex} ({frameRectangle.X}, {frameRectangle.Y})", Vector2.Zero, Color.White);
                 _spriteBatch.End();
             }
+        }
+
+        public void SaveJsonFile(string jsonFilePath)
+        {
+            var frames = GenerateFrameData(); // Generate frame data
+
+            var jsonContent = new
+            {
+                frames = frames, // Include the generated frame data here
+                meta = new
+                {
+                    app = "ChelosSpriteAnimator",
+                    version = App.Version,
+                    image = Path.GetFileName(TexturePath),
+                    format = "RGBA8888",
+                    size = new { w = TileWidth, h = TileHeight },
+                    scale = "1"
+                }
+            };
+
+            var jsonSerializer = new JsonSerializer
+            {
+                Formatting = Formatting.Indented,
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
+
+            using (var streamWriter = new StreamWriter(jsonFilePath))
+            using (var jsonWriter = new JsonTextWriter(streamWriter))
+            {
+                jsonSerializer.Serialize(jsonWriter, jsonContent);
+            }
+        }
+
+        private List<FrameData> GenerateFrameData()
+        {
+            var frames = new List<FrameData>();
+
+            // Ensure the texture is loaded
+            if (Texture == null)
+                return frames;
+
+            int columns = Texture.Width / TileWidth;
+            int rows = Texture.Height / TileHeight;
+
+            for (int y = 0; y < rows; y++)
+            {
+                for (int x = 0; x < columns; x++)
+                {
+                    var frameRectangle = new Rectangle(x * TileWidth, y * TileHeight, TileWidth, TileHeight);
+                    var frameData = new FrameData
+                    {
+                        FileName = $"{x}_{y}.png",
+                        Frame = frameRectangle,
+                        Rotated = false,
+                        Trimmed = false,
+                        SpriteSourceSize = frameRectangle,
+                        SourceSize = new Size(TileWidth, TileHeight),
+                        Pivot = new Vector2(0.5f, 0.5f)
+                    };
+                    frames.Add(frameData);
+                }
+            }
+
+            return frames;
         }
     }
 }

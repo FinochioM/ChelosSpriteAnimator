@@ -610,7 +610,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.7.2/win-x64": {
+    ".NETFramework,Version=v4.7.2/win7-x86": {
       "Catel.Core/5.11.0": {
         "type": "package",
         "dependencies": {
@@ -2739,11 +2739,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2793,7 +2788,7 @@
       }
     },
     "runtimes": {
-      "win-x64": {
+      "win7-x86": {
         "#import": []
       }
     }
